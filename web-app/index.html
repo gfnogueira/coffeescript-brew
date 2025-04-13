@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+
+    <label>Temperature:</label>
+    <input type="number" id="tempInput">
+
+    <select id="conversionType">
+      <option value="toF">Celsius → Fahrenheit</option>
+      <option value="toC">Fahrenheit → Celsius</option>
+    </select>
+
+    <button onclick="convert()">Converter</button>
+
+    <h2 id="result"></h2>
+  </body>
+</html>
